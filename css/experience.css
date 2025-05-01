@@ -1,76 +1,48 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0em;
-    background-color: #f4f4f4;
+
+#Course-schedule {
+   width: 100%;
+   margin: 0 auto;
 }
-
-header {
-    background-image: url(../images/Pavement.jpg);
-    color: white;
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center;
-    padding: 1em;
-    height: auto; 
-    position: relative;
-}
-
-nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        color: white;
-        padding: 0.5em 0; 
-        width: 100%; 
-        position: static; 
-    }
-
-nav a {
-    line-height: 40px;
-    color: white;
-    text-decoration: none;
+#Course-Layout{
+    font-size: 2rem;
+    font-weight: 600;
     text-align: center;
-    padding: 0 20px; 
-    font-size: 1.3rem; 
+    color: #444;
+    margin-bottom: 0.75rem;
 }
-
-nav a:hover {
+#Experience {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
     color: #333;
-    background-color: white;
-}
-#Header-Text {
-    text-align: center;
-    margin: 0.5em 0; 
-    font-size: 3rem !important;
-    flex: none; 
-    
-
+    margin-bottom: 3rem;
 }
 table {
     width: 90%; 
-    margin: 20px auto; 
+    margin: 3em auto; 
     border-collapse: collapse; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 table th, table td {
-    text-align: left;
+    text-align: center;
     padding: 15px;
-    width: 100px; 
-    height: 100px; 
-    border: 1px solid black; 
+    width: 80px; 
+    height: 80px; 
+    border: 1px solid #ccc; 
 }
 
 table th {
-    background-color: grey; 
-    color: #fff; 
+    background-color: #444; 
+    color: #fff;
+    
     
 }
 
 table tr:nth-child(odd) {
-    background-color: rgb(174, 230, 173); 
+    background-color: white;
 }
 
 table tr:nth-child(even) {
-    background-color: #fff; 
+    background-color: #f2f2f2; 
 }

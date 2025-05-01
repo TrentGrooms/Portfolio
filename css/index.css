@@ -1,54 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0em;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-image: url(../images/Pavement.jpg);
-    color: white;
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center;
-    padding: 1em;
-    height: auto; 
-    position: relative;
-}
-
-nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        color: white;
-        padding: 0.5em 0; 
-        width: 100%; 
-        position: static; 
-    }
-
-nav a {
-    line-height: 40px;
-    color: white;
-    text-decoration: none;
+#Home-Header {
+    font-size: 3rem;
+    font-weight: 700;
     text-align: center;
-    padding: 0 20px; 
-    font-size: 1.3rem; 
-}
-
-nav a:hover {
     color: #333;
-    background-color: white;
+    margin-bottom: 3rem;
 }
-#Header-Text {
+#Home-Subheader {
+    font-size: 2rem;
+    font-weight: 600;
     text-align: center;
-    margin: 0.5em 0; 
-    font-size: 3rem !important;
-    flex: none; 
-    
-
+    color: #444;
+    margin-bottom: 0.75rem;
 }
-h1 {
-    font-size: 2.5rem;
-    margin: 10px 0;
-    text-align: center;
+#Home-Text {
+    font-size: 1.5rem; 
+    font-weight: 400; 
+    line-height: 1.8; 
+    text-align: justify; 
+    color: #555; 
+    margin: 1.5rem auto;
+    width: 80%; 
+    max-width: 800px; 
 }
