@@ -1,0 +1,52 @@
+#Projects-header {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    margin-bottom: 3rem;
+}
+.conatiner {
+    padding: 2rem ;
+}
+.slider-wrapper {
+    position: relative;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+.slider {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -.75rem hsla(0, 0%, 0%, .2);
+    border-radius: 1rem;
+}
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 3rem;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+
+}
+.slider-nav a {
+    width: .75rem;
+    height: .75rem;
+    border-radius: 50%;
+    background-color: #333;
+    opacity: .75;
+    transition: opacity ease 250ms;
+}
+.slider nav a:hover {
+    opacity: 1;
+}
